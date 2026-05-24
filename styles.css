@@ -423,6 +423,19 @@ img {
   }
 }
 
+.hero-price {
+  font-size: 1.35rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.25rem;
+}
+
+@media (min-width: 640px) {
+  .hero-price {
+    font-size: 1.75rem;
+  }
+}
+
 .hero-bullets {
   margin-top: 2rem;
   display: flex;
